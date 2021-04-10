@@ -1,0 +1,47 @@
+extends base.pug
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#intro
+        | welcome to ridam dance academy
+        <br>
+        div.pr Eat Dance Sleep Repeat
+    section#misson 
+        h2 our misson
+        .card
+            h3 Dance Perfection
+            .card-box
+                .card-img
+                    img(src='/static/img/1.png')
+
+                .card-content
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, amet!
+        .card
+            h3 Dance the way you want
+            .card-box
+                .card-img
+                    img(src='/static/img/2.png')
+
+                .card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quidem!?
+        .card
+            h3 Expert teaching
+            .card-box
+                .card-img
+                    img(src='/static/img/3.png')
+
+                .card-content
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque.
+    section#sponsorsection
+        h2 Our Sponsors
+        #sponsors
+            img(src="/static/img/logo1.png",alt="sponsor image",class="spimg")
+            img(src="/static/img/logo2.png",alt="sponsor image",class="spimg")
+            img(src="/static/img/logo3.png",alt="sponsor image",class="spimg")
+            img(src="/static/img/logo4.png",alt="sponsor image",class="spimg")
+            

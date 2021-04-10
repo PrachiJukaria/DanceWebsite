@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Riddam dance academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar.top
+        ul
+            #logo
+                img(src="/static/img/logo.png")
+                | RDA
+            li #[a(href="/") home]
+            li #[a(href="/") about]
+            li #[a(href="/") services]
+            li #[a(href="/") class info]
+            li #[a(href="/contact") contact us]
+    block content
+    footer#footer
+        | Copyright  © 2020 riddamdanceacademy.com  
